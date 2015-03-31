@@ -1,21 +1,21 @@
 <?php
 	
-	$random_rgb = array();
-	for ($i = 0; $i <= 255; $i++)
-	{
-		$random_rgb[] = $i;
-	}
-	$random_r = $random_rgb[rand(0,255)];
-	$random_g = $random_rgb[rand(0,255)];
-	$random_b = $random_rgb[rand(0,255)];
+	// $random_rgb = array();
+	// for ($i = 0; $i <= 255; $i++)
+	// {
+	// 	$random_rgb[] = $i;
+	// }
+	$random_r = rand(0,255);
+	$random_g = rand(0,255);
+	$random_b = rand(0,255);
 
-	$random_r1 = $random_rgb[rand(0,255)];
-	$random_g1 = $random_rgb[rand(0,255)];
-	$random_b1 = $random_rgb[rand(0,255)];
+	$random_r1 = rand(0,255);
+	$random_g1 = rand(0,255);
+	$random_b1 = rand(0,255);
 
-	$random_r2 = $random_rgb[rand(0,255)];
-	$random_g2 = $random_rgb[rand(0,255)];
-	$random_b2 = $random_rgb[rand(0,255)];
+	$random_r2 = rand(0,255);
+	$random_g2 = rand(0,255);
+	$random_b2 = rand(0,255);
 
 	$alphabet = array('a','b','c','d','e','f','g','h','i','j','k','l','m','n','o','p','q','r','s','t','u','v','w','x','y','z');
 	$random_text = array();

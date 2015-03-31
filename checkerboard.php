@@ -35,13 +35,6 @@
 ?>			
 				<div class="red checker"></div>
 				<div class="black checker"></div>
-	<!-- 	<div class="red checker"></div>
-		<div class="black checker"></div>
-		<div class="red checker"></div>
-		<div class="black checker"></div>
-		<div class="red checker"></div>
-		<div class="black checker"></div>
-		<br> -->
 <?php
 			}
 		}
