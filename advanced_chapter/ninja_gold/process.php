@@ -25,8 +25,8 @@
 	}
 	if ($_POST['building'] == 'casino')
 	{
-		$dice = rand(0,1);
-		if ($dice == 1)
+		$dice = rand(0,100);
+		if ($dice >= 30)
 		{
 			$gold = rand(0,50);
 		}

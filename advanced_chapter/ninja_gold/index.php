@@ -10,7 +10,7 @@
 	{
 		$_SESSION['activities'] = array();
 	}
-
+	
 ?>
 
 <!DOCTYPE html>
@@ -106,6 +106,7 @@
 				<input type="submit" value="Find Gold!" />
 			</form>
 		</div>
+		<!-- This div is so weird. I can't figure out why it's higher than the others -->
 		<div class='border'>
 			<h1>Casino!</h1>
 			<h2>(earns/takes 0-50 gold)</h2>
